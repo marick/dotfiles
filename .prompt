@@ -1,0 +1,4 @@
+export PS1="\! \$ "
+
+# I have no idea why SUDO_PS1 doesn't work.
+if [ "$SUDO_USER" ]; then export PS1="\w \! #### "; fi
