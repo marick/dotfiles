@@ -1,5 +1,6 @@
 . ~/dotfiles/.prompt
 
+PATH=$PATH:~/dotfiles/bin:~/bin
 
 alias ls="ls -FG"
 alias nobak="rm -f *~ \#*\#"
