@@ -1,0 +1,11 @@
+
+number_to_squash=`git status | sed -n 2p | cut -f 9 -d" "`
+
+echo "$number_to_squash" | grep -q "^[0-9][0-9]*$"
+if [ $? -gt 0 ]
+then
+  echo "How did '" $number_to_squash "' come from 'git status'?"
+  exit 1
+fi
+
+git rebase -i "HEAD~$number_to_squash"
