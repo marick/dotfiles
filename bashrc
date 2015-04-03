@@ -3,7 +3,7 @@
 # Damn you, Apple.
 PATH=/usr/local/bin:$PATH
 
-export PGHOST='/var/pgsql_socket'
+export PGHOST=localhost
 
 alias ls="ls -FG"
 alias s='stty -echo'
