@@ -1,4 +1,5 @@
 . ~/dotfiles/prompt
+. ~/dotfiles/android
 
 # Damn you, Apple.
 PATH=/usr/local/bin:$PATH

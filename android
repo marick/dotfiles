@@ -1,0 +1,2 @@
+export STUDIO_JDK=/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk
+export ANDROID_HOME=${HOME}/Library/Android/sdk
